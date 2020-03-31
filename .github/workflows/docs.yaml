@@ -19,7 +19,7 @@ jobs:
         with:
           use-verbose-mode: 'yes'
           config-file: '.github/workflows/markdown-link-check-config.json'
-          folder-path: '*.md'
+          folder-path: './*.md'
       - name: Link Checker (for ./internal markdown docs)
         uses: gaurav-nelson/github-action-markdown-link-check@0.6.0
         with:
